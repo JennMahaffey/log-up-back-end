@@ -21,6 +21,11 @@ else
   {return false}
 }
 
+function isValidPassword(pw){
+  if (pw.value < 8)
+  {return false}
+}
+
 // Our code below. Do not touch!
 
 
