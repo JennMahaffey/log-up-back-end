@@ -13,7 +13,7 @@ const {
 
 describe('isValidEmail', () => {
   it('returns whether the email ends with a persevere domain', () => {
-    const validEmail1 = 'kyle.rose@persevere.org';
+    const validEmail1 = 'kyle.rose@perseverenow.org';
     const validEmail2 = 'your.name.prsvr@gmail.com';
     const invalidEmail1 = 'kyle.rose@gmail.com';
     const invalidEmail2 = 'kyle@fake.com';

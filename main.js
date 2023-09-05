@@ -17,8 +17,9 @@ if ((email.indexOf('.prsvr@gmail.com') === (email.length - 16) && email.indexOf(
 
 ||
 
-(email.indexOf('@perseverenow.org') === (email.length - 17) && (email.indexOf('@perseverenow.org') ! == 0))){
-  return true}
+ ((email.indexOf('@perseverenow.org') === (email.length - 17) && email.indexOf('@perseverenow.org')!==0))
+  return true
+}
   else {return false}
 }
 
