@@ -11,21 +11,15 @@ const password2 = 'Console.logger';
 
 // **YOUR** code below. Pass those tests!
 
-function isValidEmail(email) {
+function isValidEmail(str) {
 
-if ((email.indexOf('.prsvr@gmail.com') === (email.length - 16) && email.indexOf('.prsvr@gmail.com')!== 0) 
-
-||
-
- ((email.indexOf('@perseverenow.org') === (email.length - 17) && email.indexOf('@perseverenow.org')!==0))
+if (str.includes('@perseverenow.org')
+|| (str.includes('.prsvr@gmail.com'))){
   return true
 }
-  else {return false}
+else 
+  {return false}
 }
-
-
-this.isValidPassword
-
 
 // Our code below. Do not touch!
 
