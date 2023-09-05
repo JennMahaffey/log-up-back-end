@@ -14,16 +14,34 @@ const password2 = 'Console.logger';
 function isValidEmail(str) {
 
 if (str.includes('@perseverenow.org')
-|| (str.includes('.prsvr@gmail.com'))){
+|| (str.includes('.prsvr@gmail.com')))  && 
+((str.indexOf('@perseverenow.org') > 0) ||
+str.indexOf('.prsvr@gmail.com'))
+
+{
   return true
 }
 else 
-  {return false}
+  {return false;}
 }
 
 function isValidPassword(pw){
-  if (pw.value < 8)
+   pw.length < 8
   {return false}
+}
+
+function isRegisteredUser(user) {
+return user === user1 || user === user2 || user === user3;{
+  return true
+} else{
+  return false
+}
+}
+
+function passwordMatches(user, password) {
+switch(user){
+  case user1
+}
 }
 
 // Our code below. Do not touch!
