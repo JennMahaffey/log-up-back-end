@@ -31,7 +31,7 @@ function isValidPassword(pw){
 }
 
 function isRegisteredUser(user) {
-return user === user1 || user === user2 || user === user3;{
+return user === user1 || user === user2 ||;{
   return true
 } else{
   return false
