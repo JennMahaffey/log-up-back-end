@@ -20,9 +20,13 @@ function isValidEmail(email) {
   }
 }
 
-function isValidPassword(pw){
-   pw.length < 8
-  {return false}
+function isValidPassword(password){
+  if(password.length >= 8 && password !== password.toLowerCase() 
+  && password !== password.toUpperCase()){ 
+    return true
+  }else{
+    return false
+  }
 }
 
 function isRegisteredUser(user) {
@@ -33,11 +37,24 @@ return user === user1 || user === user2 ||;{
 }
 }
 
-function passwordMatches(user, password) {
-switch(user){
-  case user1
+function passwordMatches(user, password){
+  switch(user){
+    case user1:{
+      return password === password1
+      break;
+    }
+    case user2:{
+      return password === password2
+      break;
+    }
+    case user3:{
+      return password === password3
+      break;
+    }
+  }
+
 }
-}
+
 
 // Our code below. Do not touch!
 
