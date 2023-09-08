@@ -29,12 +29,8 @@ function isValidPassword(password){
   }
 }
 
-function isRegisteredUser(user) {
-return user === user1 || user === user2 ||;{
-  return true
-} else{
-  return false
-}
+function isRegisteredUser(user){
+  return user === user1 || user === user2 || user === user3
 }
 
 function passwordMatches(user, password){
